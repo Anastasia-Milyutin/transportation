@@ -1,0 +1,67 @@
+.company {
+  width: 100%;
+  background-color: #2f343a;
+  padding: 100px 160px 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.flex-text {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.company__h {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 123.047%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+.company__p {
+  width: 445px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 146.484%;
+}
+.company__flex-block {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 130px;
+}
+.block-cars {
+  width: 200px;
+  height: 160px;
+  border: 0.25px solid var(--Gold, #c8a35f);
+  background-color: var(--White, #fff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+}
+.nomber {
+  color: #2f343a;
+  font-size: 64px;
+  font-weight: 700;
+  letter-spacing: 3.2px;
+  text-transform: uppercase;
+}
+.ofice {
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.9px;
+}
+.text {
+  color: #000;
+  font-size: 12px;
+  font-weight: 400;
+}
+.car-img {
+  margin-top: 15px;
+}
